@@ -19,32 +19,34 @@
     <div class="container">
       <h1>World Clock</h1>
       <form action="">
-        <select name="" id="">
+        <select name="" id="selected-city">
           <option value="">Select a city 🔎</option>
-          <option value="">London</option>
-          <option value="">Tokyo</option>
-          <option value="">Los Angeles</option>
-          <option value="">New York</option>
-          <option value="">Cape Town</option>
-          <option value="">Sydney</option>
-          <option value="">Paris</option>
+          <option value="Europe/London">London</option>
+          <option value="Asia/Tokyo">Tokyo</option>
+          <option value="America/Los_Angeles">Los Angeles</option>
+          <option value="America/New_York">New York</option>
+          <option value="Asia/Dubai">Dubai</option>
+          <option value="Australia/Sydney">Sydney</option>
+          <option value="Europe/Paris">Paris</option>
         </select>
       </form>
-      <div class="city" id="paris">
-        <h2>Paris</h2>
+      <div class="cities" id="cities">
+        <div class="city" id="paris">
+          <h2>Paris</h2>
 
-        <div class="date" id="paris-date"></div>
-        <div class="time" id="paris-time"></div>
-      </div>
-      <div class="city" id="tokyo">
-        <h2>Tokyo</h2>
-        <div class="date" id="tokyo-date"></div>
-        <div class="time" id="tokyo-time"></div>
-      </div>
-      <div class="city" id="los-angeles">
-        <h2>Los Angeles</h2>
-        <div class="date" id="los-angeles-date"></div>
-        <div class="time" id="los-angeles-time"></div>
+          <div class="date" id="paris-date"></div>
+          <div class="time" id="paris-time"></div>
+        </div>
+        <div class="city" id="tokyo">
+          <h2>Tokyo</h2>
+          <div class="date" id="tokyo-date"></div>
+          <div class="time" id="tokyo-time"></div>
+        </div>
+        <div class="city" id="los-angeles">
+          <h2>Los Angeles</h2>
+          <div class="date" id="los-angeles-date"></div>
+          <div class="time" id="los-angeles-time"></div>
+        </div>
       </div>
     </div>
     <footer>
