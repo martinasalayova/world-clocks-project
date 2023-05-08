@@ -32,6 +32,12 @@ select {
 option {
   text-align: center;
 }
+.homepage {
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
 
 footer {
   font-size: 13px;
